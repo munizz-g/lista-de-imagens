@@ -1,0 +1,11 @@
+@media(max-width: 720px) {
+    .pinturas{
+        flex-direction: column;
+        margin-bottom: 1px;
+        align-items: center;
+    }
+
+    .pinturas .pintura{
+        margin: 3px;
+    }
+}

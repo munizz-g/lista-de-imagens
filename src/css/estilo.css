@@ -1,0 +1,36 @@
+html{
+    font-family: 'Public Sans';
+}
+
+.pinturas{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pinturas .pintura{
+    width: 335px;
+    height: 432px;
+    position: relative;
+    margin-top: 129px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pinturas .pintura .informacoes{
+    position: absolute;
+    bottom: 43px;
+    color: #FFFFFF;
+    left: 26px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+}
