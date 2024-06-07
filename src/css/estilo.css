@@ -4,7 +4,8 @@ html{
 
 .pinturas{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
@@ -12,10 +13,10 @@ html{
     width: 335px;
     height: 432px;
     position: relative;
-    margin-top: 129px;
+    /* margin-top: 129px;
     margin-left: 10px;
-    margin-right: 10px;
-}
+    margin-right: 10px; */
+    margin: 20px 10px 0px 10px;}
 
 .pinturas .pintura .informacoes{
     position: absolute;
